@@ -1,0 +1,18 @@
+body {
+    background-color: red;
+}
+h1,p {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.ivan {
+    color:purple;
+}
+
+.elisa {
+    color: yellow;
+}
+
+.jumbotron {
+    background-color: blue;
+}
