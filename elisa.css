@@ -5,12 +5,31 @@ h1,p, nav {
     font-family: "Times New Roman", Times, serif;
 }
 
-nav { background-color: lightblue;}
-
 .jumbotron {
     background-color: blue;
 }
 
 ul {
     width:2000px;
+    margin-bottom: 5px;
+}
+
+.nav_first {
+    background-color: #e3f2fd;
+    height: 5%;
+}
+
+.header-atas { 
+    margin-left: 0px; 
+    margin-right: 0px;
+    max-width: none;
+}
+
+.right-div{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.left-div { 
+    padding-left: 20px;
 }

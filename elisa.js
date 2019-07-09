@@ -1,7 +1,15 @@
 $( document ).ready(function() {
-    // $('p').hover(function() {
-    //     $(this).css("color", "yellow");
-    // },function(){
-    //     $(this).css("color", "pink");
-    //   });
+
+    $('.phone').hover(function() {
+        $(this).css("color", "green");
+    },function(){
+        $(this).css("color", "black");
+      });
+
+    $('.left-div').hover(function() {
+        $(this).wrapInner("<u></u>")
+    }, function(){
+        $(this).find('div').unwrap();
+    });
+
 });
