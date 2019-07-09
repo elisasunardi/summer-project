@@ -1,18 +1,16 @@
 body {
-    background-color: red;
+    background-color: white;
 }
-h1,p {
+h1,p, nav {
     font-family: "Times New Roman", Times, serif;
 }
 
-.ivan {
-    color:purple;
-}
-
-.elisa {
-    color: yellow;
-}
+nav { background-color: lightblue;}
 
 .jumbotron {
     background-color: blue;
+}
+
+ul {
+    width:2000px;
 }
