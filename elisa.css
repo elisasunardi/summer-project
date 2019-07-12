@@ -25,11 +25,24 @@ ul {
     max-width: none;
 }
 
-.right-div{
+.right-div:not(.login):not(.reg){
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .left-div { 
     padding-left: 20px;
+}
+
+/* .form-control { 
+    width: 1026px;
+} */
+
+/* a.nav-link{ 
+    vertical-align: middle;
+} */
+
+
+.collapse { 
+    height: 30px;
 }
